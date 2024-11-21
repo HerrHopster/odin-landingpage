@@ -1,0 +1,43 @@
+body {
+    font-family: Roboto;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+
+
+
+.top-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 100px;
+    font-weight: 300;
+}
+
+.hero-section {
+    background-color: #1F2937;
+    min-height: 500px;
+    color: #F9FAF8;
+    display: flex;
+    padding-top: 100px;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-left: 100px;
+    max-width: 400px;
+}
