@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: auto;
-    padding: 0 100px;
+    padding-right: 100px;
 }
 
 .logo {
@@ -37,12 +37,14 @@ body {
     display: flex;                  
     align-items: center;            
     justify-content: space-between; 
-    padding: 50px 100px;            
+    padding: 50px 100px;
+    padding-left: 0;          
     gap: 20px;                      
 }
 
 .hero-text-container {
-    max-width: 50%; 
+    max-width: 50%;
+
 }
 .hero-image {
     width: 550px;
@@ -119,7 +121,14 @@ body {
 .feature-section {
     display:flex;
     flex-wrap: wrap;
-    padding: 0 100px;
+    padding-left: 100px;
+    justify-content: space-between;
+}
+
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
 }
 
 .icon {
@@ -127,7 +136,6 @@ body {
     height: 100px;
     flex-shrink: 0;
     border-radius: 10px;
-    border-color: #3c4fe0;
     background-color: #E5E7EB;
+    border: solid 5px #3882F6;
 }
-
