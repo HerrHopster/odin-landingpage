@@ -156,7 +156,60 @@ body {
 }
 
 .feature-text {
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
     margin-top: 8px;
+}
+
+
+.quote-box {
+    display: flex;
+    height: 350px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.quote-content {
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.cta-section {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    width: 600px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 90px;
+    align-items: center;
+}
+
+.cta-box-text {
+    color: #F9FAF8;
+    
 }
