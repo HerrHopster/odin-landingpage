@@ -126,12 +126,17 @@ body {
 }
 
 .feature-title {
-    
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .feature-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-right: 100px;
     padding-top: 100px;
 }
@@ -148,5 +153,5 @@ body {
     flex-shrink: 0;
     border-radius: 10px;
     background-color: #E5E7EB;
-    border: solid 5px #3882F6;
+    border: solid 3px #3882F6;
 }
